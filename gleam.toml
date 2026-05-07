@@ -3,7 +3,7 @@ version = "0.6.0"
 
 description = "r4 rsvp client layer - see https://hexdocs.pm/fhir/ "
 licences = ["MIT"]
-repository = { type = "github", user = "PotatoEMR", repo = "fhir_client_httpc" }
+repository = { type = "github", user = "PotatoEMR", repo = "fhir_client_rsvp" }
 
 links = [
   { title = "Documentation", href = "https://hexdocs.pm/fhir/" },
