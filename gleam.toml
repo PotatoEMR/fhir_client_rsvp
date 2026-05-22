@@ -1,5 +1,6 @@
 name = "fhir_client_rsvp"
-version = "0.6.0"
+version = "0.7.0"
+target = "javascript"
 
 description = "r4 rsvp client layer - see https://hexdocs.pm/fhir/ "
 licences = ["MIT"]
@@ -15,7 +16,7 @@ gleam_http = ">= 4.3.0 and < 5.0.0"
 gleam_json = ">= 3.1.0 and < 4.0.0"
 lustre = ">= 5.0.0 and < 6.0.0"
 rsvp = ">= 1.0.0 and < 2.0.0"
-fhir = ">= 0.6.0 and < 1.0.0"
+fhir = { git = "https://github.com/PotatoEMR/gleam-fhir", ref = "1da1724b02ddbae783b866e7e299bed0a1ef0c41" }
 
 [dev_dependencies]
 gleeunit = ">= 1.0.0 and < 2.0.0"
