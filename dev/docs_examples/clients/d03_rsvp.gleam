@@ -21,7 +21,7 @@ pub fn main() {
 // MODEL -----------------------------------------------------------------------
 
 type Model {
-  Model(client: client_rsvp.FhirClient, curr_pat: Option(resources.Patient))
+  Model(client: sansio.FhirClient, curr_pat: Option(resources.Patient))
 }
 
 fn init(_) -> #(Model, Effect(Msg)) {
